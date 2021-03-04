@@ -1,0 +1,50 @@
+.card-mid h1 span:nth-child(2){
+    color: hsl(0, 0%, 50%);
+    font-weight: 400;
+}
+
+.card-mid p{
+    margin: 10px;
+    font-size: 14px;
+    color: hsl(0, 0%, 45%);
+    
+}
+
+.card-bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 120px;    
+}
+
+.card-bottom div{
+    text-align: center;
+    width: 33%;
+}
+
+.card-bottom h2{
+    font-size: 20px;
+}
+
+.card-bottom p{
+    margin: 0px;
+    padding-top: 5px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: hsl(0, 0%, 45%);
+}
+
+footer{
+    position: absolute;
+    bottom: 5px;
+}
+
+
+/* Footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
